@@ -10,9 +10,7 @@ function TaskItem({ task, toggleTask, handleDeleteTask }) {
         />
         <span
           className={`break-words ${
-            task.completed
-              ? "line-through text-gray-400"
-              : "text-gray-700"
+            task.completed ? "line-through text-gray-400" : "text-gray-700"
           }`}
         >
           {task.text}

@@ -6,14 +6,22 @@ function TaskInput({ task, setTask, handleAddTask }) {
         value={task}
         onChange={(e) => setTask(e.target.value)}
         onKeyDown={(e) => {
-          if (e.key === "Enter") handleAddTask();
+          if (e.key === "Enter") {
+            handleAddTask();
+          }
         }}
         placeholder="Add a new task..."
-        className="flex-1 p-3 border border-gray-300 rounded-lg sm:rounded-l-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
+        className="flex-1 p-3 border border-gray-300 dark:border-gray-600 
+        rounded-lg sm:rounded-l-lg focus:outline-none 
+        focus:ring-2 focus:ring-blue-400 
+        bg-white dark:bg-gray-700 
+        text-gray-800 dark:text-white"
       />
       <button
         onClick={handleAddTask}
-        className="bg-blue-500 text-white px-4 py-3 rounded-lg sm:rounded-r-lg hover:bg-blue-600 transition-colors"
+        className="bg-blue-500 text-white px-4 py-3 
+        rounded-lg sm:rounded-r-lg 
+        hover:bg-blue-600 transition-colors"
       >
         Add
       </button>
