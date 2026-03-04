@@ -8,13 +8,15 @@ This project demonstrates modern React architecture, component-based design, sta
 
 ## Live Demo
 
-Live link will be added after deployment.
+Check out the live app here:
+[Smart Task Manager](https://smart-task-manager-roan-pi.vercel.app/)
+
 
 ---
 
 ## Preview
 
-(a screenshot)
+![Smart Task Manager Screenshot](src/assets/Screenshot%20(2).png)
 
 ---
 
